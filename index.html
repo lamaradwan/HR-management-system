@@ -13,9 +13,38 @@
         <a href="index.html">Home</a>
         <a href="accounting.html">Accounting</a>
 </header>
-<main>
-    <!-- <i class="fa fa-user-o" aria-hidden="true"></i> -->
-
+<main id="main">
+    <div id="form_container">
+    <form id="form">
+        <!--Name input field-->
+        <label for="fullName">Full Name: </label>
+        <input type="text" id="fullName"> 
+        <!--Department List-->
+        <label for="department">Department: </label>
+        <select id="department">
+            <option value="">--Please choose a department--</option>
+            <option value="administration">Administration</option>
+            <option value="marketing">Marketing</option>
+            <option value="development">Development</option>
+            <option value="finance">Finance</option>
+        </select> 
+        <!--Career Level List-->
+        <label for="level">Career Level: </label>
+        <select id="level">
+            <option value="">--Select a level--</option>
+            <option value="Junior">Junior</option>
+            <option value="Mid-Senior">Mid-Senior</option>
+            <option value="Senior">Senior</option>
+        </select>
+        <!--Image URL input field-->
+        <label for="imageURL">Image URL: </label>
+        <input type="text" id="imageURL"> 
+        <button id="submitBtn">Add Employee  <i class="fa fa-plus" aria-hidden="true"></i>
+        </button>
+    </form>
+</div>
+<div id="grid">
+</div>
 </main>
 <footer class="foot">
     <h6>&copy; 2022 - Copy Rights - HR-Management System By Lama Radwan</h6>
