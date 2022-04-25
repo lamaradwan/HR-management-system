@@ -11,10 +11,14 @@
 2. Added a form for filling the user informations
 3. Done some styling and added some icons from font awesome
 
+## Day 09 - Part 3 of the task:
+1. Created a table render function and saved some data about the salaries
+2. Saved the added data to the local storage and retrieve it to the index page
+
 - What observations or questions do you have about what you’ve learned so far?
 
 The teaching team is doing a great work
 
 - How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment?
 
-I thought it will take 3 hours and it took me 4 hours
+I thought it will take 3 hours and it took me 4 and a half hours
